@@ -28,3 +28,13 @@ options:
   -o OUTPUT, --output OUTPUT
                         Path to save vulnerable URLs.
 ```
+
+## Installation
+
+```
+cd /opt/ && sudo git clone https://github.com/freelancermijan/xss.git && cd xss/
+sudo chmod +x ./*.py
+cd
+sudo ln -sf /opt/xss/xss.py /usr/local/bin/xss
+xss -h
+```
